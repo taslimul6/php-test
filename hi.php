@@ -120,10 +120,22 @@ soshi'=>array('age'=>25,'sub'=>'eee', 'hobby'=>'read','sex'=>'female'),
 
  //while loop
 
-
+$p=1;
  while ($p <= 10) {
     echo $p;
+    $p++;
  }
 
-//while lopp finished
+
+
+ //foreach loop
+
+
+ $father= array('soshi','sahana', 'sathi','sana');
+
+ foreach($father as $a=>$b){
+
+    echo( $golpo.'<br>');
+ }
+
 ?>
